@@ -144,7 +144,7 @@ export default function App() {
   </p>
 
   <a
-    href="/cv/Rooney_King_CV.pdf"
+    href="/cv/Rooney_King_CV_.pdf"
     download
     className="inline-block px-8 py-4 border border-white hover:bg-white hover:text-black transition"
   >

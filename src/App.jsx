@@ -32,89 +32,84 @@ export default function App() {
 
       {/* PROJECTS */}
      {/* PROJECTS */}
+{/* PROJECTS */}
 <section id="projects" className="py-24 px-6 max-w-6xl mx-auto">
   <h2 className="text-4xl font-bold mb-12">Selected Projects</h2>
 
-  <div className="grid gap-12">
-
-    {/* Project 01 */}
+  <div className="grid gap-12 md:grid-cols-2">
+    
+    {/* Project 1 */}
     <div className="border border-gray-800 p-8 hover:border-white transition">
       <span className="text-sm text-gray-500 uppercase tracking-wide">
-        Industrial Attachment · National Treasury (Affiliated)
+        Web Application
       </span>
 
       <h3 className="mt-2 text-2xl font-semibold">
-        School Website System
+        Personal Portfolio
       </h3>
 
       <p className="mt-3 text-gray-400 leading-relaxed">
-        Designed and developed a functional school website during a
-        six-month industrial attachment at a government-affiliated
-        department. The project focused on structure, usability,
-        and institutional presentation.
+        Minimal, performance-focused portfolio built with React, Vite, and Tailwind CSS.
+        Designed to communicate clarity, structure, and intent.
+      </p>
+
+      <p className="mt-6 text-sm text-gray-500">
+        React · Tailwind · Vite
+      </p>
+
+      <div className="mt-6 flex gap-6 text-sm">
+        <a
+          href="https://rodney-portfolio-szjn.vercel.app/"
+          target="_blank"
+          className="underline hover:text-gray-300"
+        >
+          Live
+        </a>
+        <a
+          href="https://github.com/Rodney-king/rodney-portfolio"
+          target="_blank"
+          className="underline hover:text-gray-300"
+        >
+          Code
+        </a>
+      </div>
+    </div>
+
+    {/* Project 2 */}
+    <div className="border border-gray-800 p-8 hover:border-white transition">
+      <span className="text-sm text-gray-500 uppercase tracking-wide">
+        Client Website
+      </span>
+
+      <h3 className="mt-2 text-2xl font-semibold">
+        School Website
+      </h3>
+
+      <p className="mt-3 text-gray-400 leading-relaxed">
+        Responsive school website developed as part of an institutional project.
+        Focused on accessibility, structure, and maintainable front-end architecture.
       </p>
 
       <p className="mt-6 text-sm text-gray-500">
         HTML · CSS · JavaScript
       </p>
 
-      <a
-        href="https://github.com/Rodney-king/School-website"
-        target="_blank"
-        className="inline-block mt-6 text-sm underline text-gray-400 hover:text-white transition"
-      >
-        View Repository →
-      </a>
-    </div>
-
-    {/* Project 02 */}
-    <div className="border border-gray-800 p-8 hover:border-white transition">
-      <span className="text-sm text-gray-500 uppercase tracking-wide">
-        Personal Project
-      </span>
-
-      <h3 className="mt-2 text-2xl font-semibold">
-        Portfolio Website
-      </h3>
-
-      <p className="mt-3 text-gray-400 leading-relaxed">
-        Personal portfolio built with React and Tailwind CSS to
-        showcase projects, credentials, and technical direction.
-        Designed with clarity, restraint, and scalability in mind.
-      </p>
-
-      <p className="mt-6 text-sm text-gray-500">
-        React · Tailwind CSS · Vite
-      </p>
-
-      <a
-        href="https://rodney-portfolio-szjn.vercel.app/"
-        target="_blank"
-        className="inline-block mt-6 text-sm underline text-gray-400 hover:text-white transition"
-      >
-        Live Site →
-      </a>
-    </div>
-
-    {/* Project 03 */}
-    <div className="border border-gray-800 p-8 hover:border-white transition">
-      <span className="text-sm text-gray-500 uppercase tracking-wide">
-        In Progress
-      </span>
-
-      <h3 className="mt-2 text-2xl font-semibold">
-        Systems & Interfaces
-      </h3>
-
-      <p className="mt-3 text-gray-400 leading-relaxed">
-        Ongoing work focused on building structured systems,
-        interfaces, and internal tools as part of continuous
-        professional development.
-      </p>
-
-      <p className="mt-6 text-sm text-gray-500">
-        React · Tailwind · JavaScript
-      </p>
+      <div className="mt-6 flex gap-6 text-sm">
+        <a
+          href="https://rodney-king.github.io/School-website/"
+          target="_blank"
+          className="underline hover:text-gray-300"
+        >
+          Live
+        </a>
+        <a
+          href="https://github.com/Rodney-king/School-website"
+          target="_blank"
+          className="underline hover:text-gray-300"
+        >
+          Code
+        </a>
+      </div>
     </div>
 
   </div>

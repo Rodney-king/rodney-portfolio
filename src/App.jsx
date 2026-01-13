@@ -85,10 +85,11 @@ export default function App() {
         School Website
       </h3>
 
-      <p className="mt-3 text-gray-400 leading-relaxed">
-        Responsive school website developed as part of an institutional project.
-        Focused on accessibility, structure, and maintainable front-end architecture.
-      </p>
+     <p className="mt-3 text-gray-400 leading-relaxed">
+  A school administration system built with React that allows authorized
+  administrators to add, update, and manage student records through a structured interface.
+  Designed for internal visibility, data organization, and ease of use.
+</p>
 
       <p className="mt-6 text-sm text-gray-500">
         HTML · CSS · JavaScript
@@ -121,11 +122,12 @@ export default function App() {
       <section id="about" className="py-24 px-6 max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold mb-8">About</h2>
 
-        <p className="text-gray-400 text-lg leading-relaxed">
-  I’m a software engineer who values structure, intent, and execution.
-  I focus on building systems that are efficient, visually disciplined,
-  and scalable. I’m intentional about what I build, how it looks, and
-  why it exists.
+       <p className="text-gray-400 text-lg leading-relaxed">
+  I’m a junior frontend / full-stack developer based in Nairobi with experience
+  building real-world web systems for institutional use.
+  I’ve worked on projects involving admin-level access, structured data handling,
+  and clean user interfaces.
+  My focus is on clarity, performance, and building systems that solve actual problems.
 </p>
 
       </section>
@@ -146,6 +148,39 @@ export default function App() {
     Download CV
   </a>
 </section>
+{/* CONTACT */}
+<div className="w-full max-w-6xl mx-auto border-t border-gray-800" />
+
+<section id="contact" className="py-24 px-6 max-w-4xl mx-auto text-center">
+  <h2 className="text-4xl font-bold mb-6">Contact</h2>
+
+  <p className="text-gray-400 text-lg mb-8">
+    Open to junior frontend / full-stack roles, internships, and graduate opportunities.
+  </p>
+
+  <div className="space-y-4 text-lg">
+    <p>
+      <span className="text-gray-500">Email:</span>{" "}
+      <a
+        href="mailto:krodney552@gmail.com"
+        className="hover:underline"
+      >
+        krodney552@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <span className="text-gray-500">Phone:</span>{" "}
+      <a
+        href="tel:+254707797037"
+        className="hover:underline"
+      >
+        +254 707 797 037
+      </a>
+    </p>
+  </div>
+</section>
+
     </main>
   )
 }

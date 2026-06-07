@@ -217,7 +217,7 @@ export default function App() {
             Frontend / Full-Stack Developer (Junior) with government and private-sector experience.
           </p>
           <a
-            href="/cv/Rooney_King_CV_.pdf"
+            href="/cv/Rooney_King_MainaCV_1.pdf"
             download
             className="inline-block px-8 py-4 border border-white hover:bg-white hover:text-black transition"
           >

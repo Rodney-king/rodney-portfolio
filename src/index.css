@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  cursor: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0a0a12;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+a, button {
+  cursor: none;
+}
+
+@media (max-width: 768px) {
+  * { cursor: auto; }
+  a, button { cursor: pointer; }
+}
